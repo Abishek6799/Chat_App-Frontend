@@ -6,7 +6,7 @@ import Navbar from '../Components/Navbar';
 import UserList from '../Components/UserList';
 import api from '../Services/api';
 
-const socket = io('http://localhost:4000');
+const socket = io('https://chat-app-backend-batw.onrender.com/');
 
 const Chat = () => {
   const [message, setMessage] = useState('');
